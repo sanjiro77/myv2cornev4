@@ -2,7 +2,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    # support nice_oled and nice_epaper
+    # nice_oled - nice_epaper - dongle_display!view - oled Adapter
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
   projects:
@@ -10,8 +10,8 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    # support nice_oled and nice_epaper
-    - name: zmk-nice-oled
+    # oled Adapter
+    - name: zmk-oled-adapter
       remote: mctechnology17
       revision: main
   self:
